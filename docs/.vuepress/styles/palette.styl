@@ -1,0 +1,45 @@
+$accentColor = #FF66CC
+$textColor = #232521
+
+$themePicker = {
+	colorName1: #0033FF, // 极浓海蓝
+  colorName2: #8B00FF, // 紫罗兰色
+  colorName3: #00BFFF, // 深天蓝
+	colorName4: #FF8C00 // 暗橙
+}
+
+// 首页图片上文字颜色
+.home-blog .hero h1, .home-blog .hero .description, .home-blog .hero .action {
+  color: #fff!important
+}
+.home-blog .home-blog-wrapper .info-wrapper .num > div:first-child {
+    border-right: 1px solid #eaecef;
+}
+// 代码块中背景和文字颜色
+.content__default {
+  code {
+    color: #1475dc!important
+    background-color: rgba(27,31,35,0.1)!important
+  }
+  pre, pre[class*="language-"] {
+    code {
+      color #fff!important
+    }
+  }
+}
+div[class*="language-"] {
+  &::before {
+    top 0.2em
+  }
+}
+.info-wrapper .category-wrapper .category-item{
+  box-shadow: none!important;
+}
+.home-blog .home-blog-wrapper .info-wrapper {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+}
+.abstract-wrapper .abstract-item:last-child {
+  margin-bottom: 0px;
+}
