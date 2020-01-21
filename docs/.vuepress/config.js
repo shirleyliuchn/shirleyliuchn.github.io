@@ -143,7 +143,9 @@ module.exports = {
                     children: [
                         ['', '开始'],
                         ['Markdown', 'Markdown'],
-                    ]
+                        ['Concurrency', 'Concurrency'],
+                    ],
+
                 },
             ],
             '/zh/enjoy/': [
