@@ -1,12 +1,16 @@
 ---
 title: 并发与多线程
-date: 2019-11-20
+date: 2020-01-22
 sidebarDepth: 2
 tags:
  - concurrency
 categories:
  - 笔记
 ---
+
+:::tip
+多线程学习记录
+:::
 
 <!-- more -->
 多线程
